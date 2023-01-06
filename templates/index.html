@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Hadithify</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link href="static/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Fondamento&family=Petrona&family=Scheherazade+New&display=swap" rel="stylesheet">
+    </head>
+
+    <body class="text-center">
+
+        <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+          <header class="masthead mb-auto">
+            <div class="inner">
+              <h3 class="masthead-brand"></h3>
+              <nav class="nav nav-masthead justify-content-center">
+                <a class="nav-link active" href="#"></a>
+                <a class="nav-link" href="#"></a>
+                <a class="nav-link" href="#"></a>
+              </nav>
+            </div>
+          </header>
+
+          <main role="main" class="inner cover">
+            <p class="book"> {{ book + ":"}}</p>
+            <br>
+            <p class="arabic">{{ arabic }}.<p>
+            <br>
+            <p class="english">{{ english }} <a href= {{url}} class="fa fa-external-link" style="font-size:22px" target="_blank"></a></p>
+            <br>
+            <div class="btn">
+              <form>
+                <input type="submit" class="btn btn-lg btn-secondary" value="Generate Hadith">
+              </form>
+            </div>
+            <br>
+          </main>
+
+          <footer class="mastfoot mt-auto">
+            <div class="inner">
+              <p>Powered by <a href="https://github.com/MohammedArab1/ThaqalaynAPI" >Thaqalayn</a>.</p>
+            </div>
+          </footer>
+        </div>
